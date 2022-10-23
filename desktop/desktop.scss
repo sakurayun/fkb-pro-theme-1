@@ -1,6 +1,12 @@
 @import "var-mixin";
 
 // Main Outlet
+@font-face {
+    font-style: normal;
+    font-family: 'Harmony_Medium';
+    /*引入HarmonyOS_Sans_SC，目录别搞错*/
+    src: url('https://vuplive.com/HarmonyOS_Sans_SC_Medium.ttf') format('truetype');
+}
 
 .wrap {
   max-width: 100%;
